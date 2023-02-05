@@ -18,5 +18,6 @@
     ],
     "name": "Control de gastos",
     "short_name": "apligastos",
-    "start_url": "/index.html"
+    "start_url": "/index.html",
+    "scope": "/"
 }
