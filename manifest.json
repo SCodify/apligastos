@@ -2,13 +2,14 @@
     "name": "Control de gastos",
     "short_name": "apligastos",
     "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "./",
     "start_url": "./",
     "icons": [
         {
-            "src": "./icon.png",
+            "src": "./icon-512.png",
             "type": "image/png",
             "size": "512x512"
         }
