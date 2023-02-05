@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.register {
+  height: calc(100vh - 128px - 8px - 38px - 32px - 2px);
+  overflow-y: scroll;
+  background-color: antiquewhite;
+}
+
+.tab-pane {
+  max-height: 70px;
+  min-height: 70px;
+}
+
+th, td {
+  padding: 4px !important;
+}
+
+#cot {
+  overflow-y: scroll;
+}
+
+.fa-floppy-disk {
+  padding-right: 10px;
+}
