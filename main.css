@@ -20,6 +20,15 @@ body {
   min-height: 70px;
 }
 
+.tab-expand {
+  height: calc(100vh - 285.5px - 8px - 38px - 32px - 2px);
+}
+
+.cot-tab-pane-expand {
+  max-height: 227.5px;
+  min-height: 227.5px;
+}
+
 th, td {
   padding: 4px !important;
 }
@@ -30,4 +39,81 @@ th, td {
 
 .fa-floppy-disk {
   padding-right: 10px;
+}
+
+#info {
+  overflow-y: scroll;
+}
+
+#info .btn {
+  width: max-content;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+  position: fixed;
+  z-index: 1031;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 500px solid #4c5c96;
+
+  animation-name: loader;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes loader {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  95% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.dot {
+  background-color: #0d6efd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 16px;
+
+  animation-name: scaling;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.dot:nth-child(1){
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(2){
+  animation-delay: 0.4s;
+}
+
+.dot:nth-child(3){
+  animation-delay: 0.6s;
+}
+
+@keyframes scaling {
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(.2);
+  }
 }

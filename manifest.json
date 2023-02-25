@@ -17,7 +17,7 @@
         }
     ],
     "name": "Control de gastos",
-    "short_name": "apligastos",
-    "start_url": "https://scodify.github.io/apligastos/index.html",
+    "short_name": "Apligastos",
+    "start_url": "https://scodify.github.io/Apligastos2.0/index.html",
     "scope": "/"
 }
