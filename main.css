@@ -10,7 +10,7 @@ body {
 }
 
 .register {
-  height: calc(100vh - 128px - 8px - 38px - 32px - 2px);
+  height: calc(100dvh - 128px - 8px - 38px - 32px - 2px);
   overflow-y: scroll;
   background-color: antiquewhite;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .tab-expand {
-  height: calc(100vh - 285.5px - 8px - 38px - 32px - 2px);
+  height: calc(100dvh - 285.5px - 8px - 38px - 32px - 2px);
 }
 
 .cot-tab-pane-expand {
